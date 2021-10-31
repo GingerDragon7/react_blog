@@ -2,6 +2,11 @@ import React from "react";
 import { Link } from "gatsby";
 import Img from "gatsby-image";
 
+var button1;
+ onevent() { 
+   var i=1 ; 
+   const flag=0;
+ }
 const Card = ({ article }) => {
   return (
     <Link to={`/article/${article.node.slug}`} className="uk-link-reset">
